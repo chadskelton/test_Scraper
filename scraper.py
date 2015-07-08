@@ -5,10 +5,8 @@
 # could then pull in that table using the query from scraperwiki on a regular basis (as import.io doesn't have scheduling yet)
 
 import scraperwiki
-import tweepy
 import time
 from datetime import datetime
-import smtplib
 import requests
 from BeautifulSoup import BeautifulSoup
 import random
